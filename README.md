@@ -6,7 +6,7 @@ Table of Contents
 
 #overview
 #features
-#architecture
+#repository-structure
 #compliance--standards
 #workflow-design
 #integration
@@ -35,7 +35,6 @@ Scalable architecture for semantic and ontology-driven governance
 Alignment with Canadian Digital Ambition, GC Cloud Strategy, and SSC Roadmaps
 
 
-Repository Structure
 GovAI-HITL-Assistant/
 ├── README.md
 ├── LICENSE
@@ -86,7 +85,6 @@ GovAI-HITL-Assistant/
 │   └── security-controls.md
 └── CHANGELOG.md
 
-
 Compliance & Standards
 This system adheres to Canadian and international frameworks:
 
@@ -107,7 +105,6 @@ Offline: Air-gapped HITL
 
 Workflow Steps:
 OrchestratorAgent → KnowledgeRetrievalAgent → DraftingAgent → ComplianceAgent → RefereeAgent → PeopleAgent (HITL) → SelfReviewAgent → Delivery → AuditTrailAgent
-
 
 Integration
 
